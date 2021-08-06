@@ -5,7 +5,7 @@ import { LoginScreen, RegisterScreen } from '../screens'
 
 const Stack = createStackNavigator()
 
-export function AuthNavigator() {
+export function AuthNavigator() { 
   return (
     <Stack.Navigator initialRouteName="Login" headerMode="none">
       <Stack.Screen name="Login" component={LoginScreen} />
